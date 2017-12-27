@@ -9,7 +9,7 @@
 }
 @media (max-width: 768px) {
   .img{
-    height:250p;
+    height:250px;
   }
 }
   
@@ -96,8 +96,8 @@
 
 .contact{
    background-color: #cfe6c3; 
-   height:70px;
-   margin-top:30px;
+   height:130px;
+   margin-top:50px;
 }
 
 .contactimformation{
@@ -106,25 +106,17 @@
     font-size: small;
     padding:10px;
 }
-.wrapper {
-  display: table;
-  border-spacing: 200px 0;
-  border-collapse: separate;
-  text-align-last: center;
-}
-.wrapper .box {
-  display: table-cell;
-  width: 250px;
-  height: 3px;
-  vertical-align: middle;
+
+.button {
+  width: 90px;
   text-align: center;
+  padding:30px;
+  margin: 0 auto;
+ }
  
-}
 .radius {
   background-color:#fcf5d2;
   border-radius:10px;
 }
 
-.wrapper{
-  margin: 0 auto;
-}
+
