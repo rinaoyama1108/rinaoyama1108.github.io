@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.img{
+ background: url(images/sea2.jpg);
+ height: 500px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+@media (max-height: 250px) {
+  .img {
+    flex-direction: column;
+  }
+}
+
+.subject{
+    font-size: medium;
+    color:gray;
+    text-align:center; 
+}
+.maintitle{
+    font-size:32px;
+    color:gray;
+    text-align:center;
+}
+.famous{
+    font-size:28px;
+    color:gray;
+    text-align: center;
+}
+.cow{
+    font-size: larger;
+    color:gray;
+    text-align:center;
+}
+.sentence{
+    font-size: small;
+    color:gray;
+}
+.athletic{
+    font-size: larger;
+    color:gray;
+    text-align:center;
+}
+.diving{
+    font-size: larger;
+    color: gray;
+    text-align:center;
+}
+.box {
+    flex: 1;
+    margin: 5px;
+    background-color: #ffec8e;
+}
+#contents{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+  #contents {
+    flex-direction: column;
+  }
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.common {
+  font-size: 20px;
+  border: 2px solid none;
+  padding: 10px;
+  background-color:#ffec8e;
+}
+
+.boxcommon{
+  font-size: 20px;
+  border: 2px solid none;
+  padding: 10px;
+  background-color: #c0e3f5;
+
+}
+
+.contact{
+   background-color: #cfe6c3; 
+   height:100px;
+}
+
+.contactimformation{
+    text-align: center;
+    color:gray;
+    font-size: small;
+    padding:10px;
+}
+.wrapper {
+  display: table;
+  border-spacing: 200px 0;
+  border-collapse: separate;
+  text-align-last: center;
+}
+.wrapper .box {
+  display: table-cell;
+  width: 250px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+ 
+}
+.radius {
+  background-color:#fcf5d2;
+  border-radius:5px;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
