@@ -5,27 +5,39 @@
  height: 500px;
  background-repeat: no-repeat;
  background-size: cover;
+ margin-bottom: 40px;
 }
-@media (max-height: 250px) {
-  .img {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .img{
+    height:250p;
   }
 }
+  
 
 .subject{
     font-size: medium;
     color:gray;
     text-align:center; 
+    magin:100px;
+}
+.subject2{
+    font-size: medium;
+    color:gray;
+    text-align:center; 
+    margin-top:20px;
+    margin-bottom:20px;
 }
 .maintitle{
     font-size:32px;
     color:gray;
     text-align:center;
+    margin-bottom:40px;
 }
 .famous{
     font-size:28px;
     color:gray;
     text-align: center;
+    margin-bottom:20px;
 }
 .cow{
     font-size: larger;
@@ -49,7 +61,7 @@
 .box {
     flex: 1;
     margin: 5px;
-    background-color: #ffec8e;
+    background-color: #fcf5d2;
 }
 #contents{
     display: flex;
@@ -71,12 +83,12 @@
   font-size: 20px;
   border: 2px solid none;
   padding: 10px;
-  background-color:#ffec8e;
+  background-color:#fcf5d2;
 }
 
 .boxcommon{
   font-size: 20px;
-  border: 2px solid none;
+  border: 10px solid none;
   padding: 10px;
   background-color: #c0e3f5;
 
@@ -84,7 +96,8 @@
 
 .contact{
    background-color: #cfe6c3; 
-   height:100px;
+   height:70px;
+   margin-top:30px;
 }
 
 .contactimformation{
@@ -102,14 +115,14 @@
 .wrapper .box {
   display: table-cell;
   width: 250px;
-  height: 30px;
+  height: 3px;
   vertical-align: middle;
   text-align: center;
  
 }
 .radius {
   background-color:#fcf5d2;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 .wrapper{
